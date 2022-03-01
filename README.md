@@ -176,12 +176,12 @@ For queries or any issues regarding the bot please open an issue ticket or visit
 ## Credits 📍
 CREDITS
 ```
-❤️ Saitama = Sawada
-❤️ DaisyX = Inuka
-❤️ Yone = Noob kittu 
-❤️ Alpha Coders = https://alphacoders.com
-❤️ Developed by = heyaaman
-```
+
+
+
+
+
+
 ## Note : While kanging or forking this repo don't change credits.
 
 This repository is a mix set of other bot repositorys which mentioned on credits above developed By [heyaaman](https://github.com/heyaaman) 
