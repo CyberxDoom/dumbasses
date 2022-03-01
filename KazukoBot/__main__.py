@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hey there, I'm Kazuko,
+Hey there, I'm Ξ S Γ H Ξ Я ,
 
 I am an Anime themed group management bot
 to help maintaining groups with my super advanced features.
@@ -88,22 +88,22 @@ I have lots of handy features such as:
 ‣ Approvals and much more.
 
 So what are you waiting for?
-Add me in your groups and promote me to make me function well[.](https://telegra.ph/file/6d0f29836fda1effbb4ba.jpg)
+Add me in your groups and promote me to make me function well[.](https://te.legra.ph/file/af3dbe0c9ff915905b888.jpg)
 """
 buttons = [
     [
-        InlineKeyboardButton(text="Updates", callback_data="https://t.me/KazukoUpdates"),
-        InlineKeyboardButton(text="About", callback_data="kazuko_"),
-        InlineKeyboardButton(text="Support", callback_data="https://t.me/KazukoSupportChat"),
+        InlineKeyboardButton(text="Updates", callback_data="https://t.me/DC_bot_updates"),
+        InlineKeyboardButton(text="About", callback_data="esther_"),
+        InlineKeyboardButton(text="Support", callback_data="https://t.me/DC_bots_support"),
       ],
     [
-        InlineKeyboardButton(text="️Add Me", url="t.me/KazukoRobot?startgroup=true"),
+        InlineKeyboardButton(text="️Add Me", url="t.me/Miss_esther_bot?startgroup=true"),
         InlineKeyboardButton(text="Commands", callback_data="help_back"),
     ],
 ]
 
 HELP_STRINGS = """
-Hey there! My name is Kazuko.
+Hey there! My name is Ξ S Γ H Ξ Я .
 Have a look at the following for an idea of some of
 the things I can help you with.
 Main commands available:
@@ -115,10 +115,10 @@ Main commands available:
  Click on the buttons below to get documentation about specific modules!
 """
 
-KAZUKO_IMG = "https://telegra.ph/file/6d0f29836fda1effbb4ba.jpg"
+KAZUKO_IMG = "https://te.legra.ph/file/af3dbe0c9ff915905b888.jpg"
 
 DONATE_STRING =  """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](ko-fi.com/heyaaman) or by contacting @heyaaman \
+ You can support the project via [Paypal](ko-fi.com/bRoThEr_Of_ViLlAiN) or by contacting @bRoThEr_Of_ViLlAiN \
 """
 
 IMPORTED = {}
@@ -230,9 +230,9 @@ def start(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="Support",url="https://t.me/KazukoSupportChat",
+                        InlineKeyboardButton(text="Support",url="https://t.me/DC_bots_support",
                         ),
-                        InlineKeyboardButton(text="Updates",url="https://t.me/KazukoUpdates",
+                        InlineKeyboardButton(text="Updates",url="https://t.me/DC_bot_updates",
                         ),
                     ],
                     [  
@@ -371,7 +371,7 @@ def kazuko_about_callback(update, context):
     query = update.callback_query
     if query.data == "kazuko_":
         query.message.edit_text(
-            text="""I'm *Kazuko*, a powerful group management bot built to help you manage your group easily.
+            text="""I'm *Ξ S Γ H Ξ Я*, a powerful group management bot built to help you manage your group easily.
 
 • I can restrict users.
 • I can greet users with customizable welcome messages and even set a group's rules.
@@ -379,10 +379,10 @@ def kazuko_about_callback(update, context):
 • I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
 • I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
 • I check for admins'permissions before executing any command and more stuffs
-\n_Kazuko's licensed under the GNU General Public License v3.0_
-Have any question about Kazuko?, let us know at Kazuko's support chat.
+\n_Esther's licensed under the GNU General Public License v3.0_
+Have any question about Esther?, let us know at Kazuko's support chat.
 and also almost all modules usage defined in the help menu, checkout by sending /help
-or choosing help button at home menu and report error/bugs at Kazuko's support chat...""",
+or choosing help button at home menu and report error/bugs at Esther's support chat...""",
 
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -392,7 +392,7 @@ or choosing help button at home menu and report error/bugs at Kazuko's support c
                         InlineKeyboardButton(
                             text=" Setup Guide ", url="https://t.me/KazukoUpdates/22",
                         ),
-                        InlineKeyboardButton(text="T & C", url="https://telegra.ph/Terms-and-Conditions-10-26",
+                        InlineKeyboardButton(text="T & C", url="https://telegra.ph/TERMS--CONDITIONS-03-01",
                         ),
                         InlineKeyboardButton(
                             text="Source code", url="https://github.com/heyaaman/KazukoBot",
@@ -403,14 +403,14 @@ or choosing help button at home menu and report error/bugs at Kazuko's support c
                             text="Network", url="https://t.me/Phoenix_Empire/28",
                         ),   
                         InlineKeyboardButton(
-                            text="Gban logs", url="https://t.me/CFC_BotsGban_logs",
+                            text="Gban logs", url="https://t.me/esther_logs",
                         ),   
                     ],     
-                    [InlineKeyboardButton(text="Back", callback_data="kazuko_back")],
+                    [InlineKeyboardButton(text="Back", callback_data="esther_back")],
                 ]
             ),
         )
-    elif query.data == "kazuko_back":
+    elif query.data == "esther_back":
         query.message.edit_text(
                 PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
@@ -424,7 +424,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *kazuko*
+            text=""" Hi..🤗 I'm *Ξ S Γ H Ξ Я*
                  \nHere is the [Source Code](https://github.com/heyaaman/KazukoBot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
