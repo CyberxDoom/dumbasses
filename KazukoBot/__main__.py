@@ -380,7 +380,7 @@ def kazuko_about_callback(update, context):
 • I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
 • I check for admins'permissions before executing any command and more stuffs
 \n_Esther's licensed under the GNU General Public License v3.0_
-Have any question about Esther?, let us know at Kazuko's support chat.
+Have any question about Esther?, let us know at Esther's support chat.
 and also almost all modules usage defined in the help menu, checkout by sending /help
 or choosing help button at home menu and report error/bugs at Esther's support chat...""",
 
