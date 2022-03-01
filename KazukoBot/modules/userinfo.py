@@ -524,7 +524,7 @@ When marked as AFK, any mentions will be replied to with a message to say you're
  ❍ /info*:* get information about a user. 
  
 *What is that health thingy?*
- Come and see [HP System explained](https://t.me/DC_bot_updates/4)
+ Come and see [HP System explained](https://t.me/DC_bot_updates/12)
 """
 
 
