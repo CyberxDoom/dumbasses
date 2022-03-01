@@ -390,17 +390,17 @@ or choosing help button at home menu and report error/bugs at Esther's support c
                 [
                     [
                         InlineKeyboardButton(
-                            text=" Setup Guide ", url="https://t.me/KazukoUpdates/22",
+                            text=" Setup Guide ", url="https://t.me/DC_bot_updates/11",
                         ),
                         InlineKeyboardButton(text="T & C", url="https://telegra.ph/TERMS--CONDITIONS-03-01",
                         ),
                         InlineKeyboardButton(
-                            text="Source code", url="https://github.com/heyaaman/KazukoBot",
+                            text="Source code", url="https://t.me/+qPnXZrXRDds2MjEx",
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="Network", url="https://t.me/Phoenix_Empire/28",
+                            text="Network", url="https://t.me/The_Dsouza_Crew",
                         ),   
                         InlineKeyboardButton(
                             text="Gban logs", url="https://t.me/esther_logs",
@@ -425,7 +425,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..🤗 I'm *Ξ S Γ H Ξ Я*
-                 \nHere is the [Source Code](https://github.com/heyaaman/KazukoBot) .""",
+                 \nHere is the [Source Code](https://t.me/+qPnXZrXRDds2MjEx) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
